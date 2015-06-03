@@ -12,8 +12,4 @@ class Macbrush < Formula
     xcodebuild 
     bin.install "./build/Release"
   end
-  
-  test do
-  macbrush "--verbose --skip-observation " testpath
-  end
 end
