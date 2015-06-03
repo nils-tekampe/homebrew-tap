@@ -10,7 +10,7 @@ class Macbrush < Formula
     cd "macbrush"
     xcodebuild  "clean"
     xcodebuild 
-    bin.install "./build/Release"
+    bin.install "./build/Release/macbrush"
   end
     
   test do
