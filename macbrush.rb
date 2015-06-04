@@ -11,7 +11,7 @@ class Macbrush < Formula
     xcodebuild  "clean"
     xcodebuild 
     bin.install "./build/Release/macbrush"
-    man1.install "../../macbrush/macbrush.1"
+    man1.install "./macbrush/macbrush.1"
   end
     
   test do
