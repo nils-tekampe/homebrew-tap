@@ -2,7 +2,7 @@ class Macbrush < Formula
   desc "Keeping OSX directories clear of temporary files"
   homepage "https://nils-tekampe.github.io/macbrush"
   url "https://github.com/nils-tekampe/macbrush/archive/0.81.tar.gz"
-  sha256 "3c17d2bd0c985aa2c608fc1a3df7bcb3348115aac02d15a88de80e53c8782820"
+  sha256 "c36ac25eb898868898991671d42efb4fb1c56895e3161519ffbd70ea20ea09ef"
 
   depends_on :xcode => :build
 
