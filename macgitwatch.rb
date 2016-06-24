@@ -8,7 +8,8 @@ class macgitwatch < Formula
   depends_on "fswatch"
 
   def install
-    bin.install "./build/Release/macbrush"
+    bin.install "./macgitwatch.sh"
   end
     
 end
+          
