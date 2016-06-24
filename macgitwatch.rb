@@ -4,8 +4,8 @@ class Macgitwatch < Formula
   url "https://github.com/nils-tekampe/macgitwatch/archive/0.1.tar.gz"
   sha256 "c36ac25eb898868898991671d42efb4fb1c56895e3161519ffbd70ea20ea09ef"
 
-  depends_on :git
-  depends_on :fswatch
+  depends_on "git"
+  depends_on "fswatch"
 
   def install
     bin.install "./macgitwatch.sh"
