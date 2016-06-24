@@ -12,4 +12,4 @@ class macgitwatch < Formula
   end
     
 end
-          
+          test
