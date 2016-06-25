@@ -9,7 +9,7 @@ class Macgitwatch < Formula
 
   def install
     bin.install "./macgitwatch.sh"
-    bin.install_symlink "macgitwatch"
+    bin.install "./macgitwatch"
   end
     
 end
