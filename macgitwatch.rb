@@ -2,7 +2,7 @@ class Macgitwatch < Formula
   desc "Auto commit for git under OSX"
   homepage "https://github.com/nils-tekampe/macgitwatch"
   url "https://github.com/nils-tekampe/macgitwatch/archive/0.3.tar.gz"
-  sha256 "42d63f213a198558f70688bb5547b600ad5629f2deb53ab5ba047489c5f98ef6"
+  sha256 "0aedf935d7fd48d110d3bc1ff6bdbeefea6ecc9cf04bc8c29c803a8028a6baf6"
 
   depends_on "git"
   depends_on "fswatch"
