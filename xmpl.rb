@@ -6,7 +6,7 @@ class Xmpl < Formula
 
   def install
     bin.install "./xmpl"
-    bin.install "./xmpls/ls.7"
+    man.install "./xmpls/ls.7" "
   end
     
 end
