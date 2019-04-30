@@ -1,11 +1,11 @@
 class Htmldiff < Formula
   desc "A diff tool to diff two html files"
   homepage "https://github.com/nils-tekampe/htmldiff"
-  url "https://github.com/nils-tekampe/macgitwatch/archive/0.4.tar.gz"
-  sha256 "7d4b6299093cdd2d88bfe08f9da06b47756d98f69e2daab1f716b943726d6ec5"
+  url "https://github.com/nils-tekampe/htmldiff/archive/v1.0.0.tar.gz"
+  sha256 "021aa7ec5ff11bfc142c0b69f4f95766d85c3d4d5b35583b6b3e94c987b4f791"
 
   def install
-    bin.install "./macgitwatch.sh"
+    bin.install "./htmldiff-macos"
   end
     
 end
