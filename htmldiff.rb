@@ -5,7 +5,9 @@ class Htmldiff < Formula
   sha256 "021aa7ec5ff11bfc142c0b69f4f95766d85c3d4d5b35583b6b3e94c987b4f791"
 
   def install
-    bin.install "./htmldiff-macos"
+    mv "bin/htmldiff-macos", "bin/htmldiff"
+    bin.install "./htmldiff"
+    
   end
     
 end
