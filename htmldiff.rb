@@ -1,4 +1,4 @@
-class htmldiff < Formula
+class Htmldiff < Formula
   desc "A diff tool to diff two html files"
   homepage "https://github.com/nils-tekampe/htmldiff"
   url "https://github.com/nils-tekampe/htmldiff/archive/v1.0.0.tar.gz"
