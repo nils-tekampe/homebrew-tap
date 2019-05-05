@@ -1,12 +1,11 @@
 class Htmldiff < Formula
   desc "A diff tool to diff two html files"
   homepage "https://github.com/nils-tekampe/htmldiff"
-  url "https://github.com/nils-tekampe/htmldiff/archive/v1.0.0.tar.gz"
-  sha256 "021aa7ec5ff11bfc142c0b69f4f95766d85c3d4d5b35583b6b3e94c987b4f791"
+  url "https://github.com/nils-tekampe/htmldiff/releases/download/V1.0.2/htmldiff--V1.0.2-12.tar.gz"
+  sha256 "73f55d46371957e539c10c55d6d04e846b1d8705d293bdf32e4e6c3d7e0c5b4d"
 
   def install
-    mv "htmldiff-macos", "htmldiff"
-    bin.install "./htmldiff"
+    bin.install "./htmldiff-macos"
     
   end
     
