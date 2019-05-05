@@ -6,6 +6,7 @@ class Htmldiff < Formula
 
   def install
     bin.install "./htmldiff-macos"
+    mv bin/"htmldiff-macos", bin/"htmldiff"
     
   end
     
